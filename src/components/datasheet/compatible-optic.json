@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_datasheet_compatible_optics",
+  "info": {
+    "displayName": "Compatible Optic",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "manufacturer": {
+      "type": "string",
+      "required": true
+    },
+    "part_number": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "string",
+      "required": true
+    },
+    "material": {
+      "type": "string",
+      "required": true
+    },
+    "beam": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

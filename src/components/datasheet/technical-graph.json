@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_datasheet_technical_graphs",
+  "info": {
+    "displayName": "Technical Graph",
+    "icon": "expand"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "x_axis": {
+      "type": "string",
+      "required": true
+    },
+    "y_axis": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

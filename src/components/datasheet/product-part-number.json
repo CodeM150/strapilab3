@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_datasheet_product_part_numbers",
+  "info": {
+    "displayName": "Product Part Number",
+    "icon": "file-invoice",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "part_number": {
+      "type": "string",
+      "required": true
+    },
+    "body_temperature": {
+      "type": "float",
+      "required": true
+    }
+  }
+}

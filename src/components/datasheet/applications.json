@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_applications_applications",
+  "info": {
+    "displayName": "applications",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "application_name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

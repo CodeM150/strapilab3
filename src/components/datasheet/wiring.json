@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_datasheet_wirings",
+  "info": {
+    "displayName": "Wiring",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "specification_item": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "unit": {
+      "type": "string",
+      "required": true
+    },
+    "condition": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "file_name": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

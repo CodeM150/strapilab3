@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_datasheet_drive_currents",
+  "info": {
+    "displayName": "Drive Current",
+    "icon": "file-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "parameter": {
+      "type": "string",
+      "required": true
+    },
+    "nominal": {
+      "type": "float",
+      "required": true
+    },
+    "max": {
+      "type": "float",
+      "required": true
+    }
+  }
+}

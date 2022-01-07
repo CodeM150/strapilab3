@@ -1,0 +1,96 @@
+{
+  "kind": "collectionType",
+  "collectionName": "datasheets",
+  "info": {
+    "singularName": "datasheet",
+    "pluralName": "datasheets",
+    "displayName": "Datasheet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "issue_date": {
+      "type": "date",
+      "required": true
+    },
+    "issued_by": {
+      "type": "string",
+      "required": true
+    },
+    "applications": {
+      "type": "component",
+      "repeatable": true,
+      "component": "datasheet.applications"
+    },
+    "characteristics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "datasheet.characteristics"
+    },
+    "drive_currents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "datasheet.drive-current"
+    },
+    "module_temperatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "datasheet.module-temperature"
+    },
+    "product_part_number": {
+      "type": "component",
+      "repeatable": true,
+      "component": "datasheet.product-part-number"
+    },
+    "technical_information": {
+      "type": "component",
+      "repeatable": true,
+      "component": "datasheet.technical-information"
+    },
+    "technical_graphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "datasheet.technical-graph"
+    },
+    "led_type": {
+      "type": "component",
+      "repeatable": false,
+      "component": "datasheet.led-type"
+    },
+    "schematics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "datasheet.schematic"
+    },
+    "mechanical_drawing": {
+      "type": "component",
+      "repeatable": true,
+      "component": "datasheet.mechanical-drawing"
+    },
+    "wiring": {
+      "type": "component",
+      "repeatable": true,
+      "component": "datasheet.wiring"
+    },
+    "compatible_optics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "datasheet.compatible-optic"
+    },
+    "file_name": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

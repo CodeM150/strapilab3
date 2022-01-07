@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_datasheet_technical_informations",
+  "info": {
+    "displayName": "Technical Information",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cct": {
+      "type": "float",
+      "required": true
+    },
+    "led_driver_current": {
+      "type": "float",
+      "required": true
+    },
+    "leds": {
+      "required": true,
+      "type": "float"
+    },
+    "luminous_flux": {
+      "type": "float",
+      "required": true
+    },
+    "forward_voltage": {
+      "required": true,
+      "type": "float"
+    },
+    "led_forward_current": {
+      "required": true,
+      "type": "float"
+    },
+    "tc": {
+      "type": "float",
+      "required": true
+    },
+    "power": {
+      "type": "float",
+      "required": true
+    },
+    "efficacy": {
+      "type": "float",
+      "required": true
+    }
+  }
+}
